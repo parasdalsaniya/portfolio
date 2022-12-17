@@ -510,7 +510,7 @@ img {
 }
 
 .skills__html {
-    width: 90%;
+    width: 80%;
 }
 
 .skills__css {
@@ -518,39 +518,51 @@ img {
 }
 
 .skills__js {
-    width: 60%;
+    width: 90%;
 }
 
 .skills__react {
     width: 85%;
 }
 
-.skills__php {
+.skills__node {
+    width: 85%;
+}
+
+.skills__express {
     width: 80%;
 }
 
-.skills__node {
-    width: 70%;
+.skills__graphql {
+    width: 90%;
+}
+
+.skills__mysql {
+    width: 80%;
 }
 
 .skills__firebase {
-    width: 90%;
-}
-
-.skills__python {
-    width: 55px;
-}
-
-.skills__figma {
-    width: 90%;
-}
-
-.skills__sketch {
     width: 85%;
 }
 
-.skills__photoshop {
-    width: 85%;
+.skills__mongodb {
+    width: 75%;
+}
+
+.skills__git {
+    width: 95%;
+}
+
+.skills__hedera {
+    width: 80%;
+}
+
+.skills__docker {
+    width: 65%;
+}
+
+.skills__cicd {
+    width: 45%;
 }
 
 .skills__close .skills__list {
@@ -1332,51 +1344,4 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-
-.hii{
-    width: 55rem;
-    height: 31rem;
-}
  
-
-
-.home > .container > .home-perfil {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    padding: 5rem 0 2.8rem; }
- 
-    @media screen and (min-width: 610px) {
-       .home > .container > .home-perfil {
-          padding: 0 0 2.8rem;
-       }
-    }
- 
-    @media screen and (min-width: 1024px) {
-       .home > .container > .home-perfil {
-          width: 95%;
-       }
- }
- 
- .home > .container > .home-perfil > .perfil {
-    display: flex;
-    justify-content: center;
- }
- 
- .home > .container > .home-perfil > .perfil > .mask {
-    fill: var(--first-color); }
- 
-    @media screen and (min-width: 1024px) {
-       .home > .container > .home-perfil > .perfil > .mask {
-          width: 33rem;
-          height: auto;
-       }
- }
- 
- .home > .container > .home-perfil > .perfil > .mask > g > .image {
-    width: 27rem;
-    /* transform: translateX(12px) translateY(16px); */
-    align-items: center;
-    justify-content: center;
- }
