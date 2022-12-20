@@ -411,7 +411,7 @@ img {
 }
 
 .about__description {
-    text-align: center;
+    text-align: justify;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -1206,11 +1206,11 @@ img {
     }
 
     .about__description {
-        text-align: initial;
+        text-align: justify;
     }
 
     .about__info {
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     .about__buttons {
@@ -1313,7 +1313,7 @@ img {
     }
 
     .services__container {
-        grid-template-columns: repeat(3, 238px);
+        grid-template-columns: repeat(2, 238px);
     }
 
     .portfolio__content {
